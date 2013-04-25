@@ -13,4 +13,4 @@ def primes_10000():
                 candidates.remove(number)
     return primes
 
-timeit("primes(10000)")
+timeit("primes_10000")
