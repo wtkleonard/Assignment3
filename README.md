@@ -17,4 +17,14 @@ Here is the output for n = 10000:
     
 The implementation using Cython is about 2.5 times faster than the naive implementation.
 
+Part 3
 
+(a) Python implementation
+
+Here is the output:
+
+    625 loops, best of 3: 38.5 ns per loop
+
+(b) Cython implementation
+
+Here is the output:
