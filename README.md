@@ -1,7 +1,7 @@
 Assignment3
 ===========
 
-Part 2
+<Part 2>
 
 (a) Python implementation
 
@@ -17,14 +17,18 @@ Here is the output for n = 10000:
     
 The implementation using Cython is about 2.5 times faster than the naive implementation.
 
-Part 3
+<Part 3>
 
 (a) Python implementation
 
 Here is the output:
 
-    625 loops, best of 3: 38.5 ns per loop
+    5 loops, best of 3: 557 ms per loop
 
 (b) Cython implementation
 
 Here is the output:
+
+    625 loops, best of 3: 84.9 µs per loop
+
+<Part 4>
