@@ -1,6 +1,22 @@
 ### Assignment3
 ===========
 
+### Part 1
+
+   We implemented a simple Monte Carlo algorithm to estimate pi.
+   
+   (a) Python implementatiuon
+   
+   Here is the output for n = 10000:
+   
+    5 loops, best of 3: 336 ms per loop
+   
+   (b) Cython implementation
+   
+   Here is the output for n = 10000:
+         
+    125 loops, best of 3: 3.31 ms per loop
+
 ### Part 2
 
    (a) Python implementation
@@ -51,7 +67,7 @@ Next, we fix a matrix, and measure only the time needed to compute the determina
    
     625 loops, best of 3: 76.7 ns per loop
 
-Part 5
+### Part 5
 
 We fix two matrices and measure the time needed to compute their product.
 
