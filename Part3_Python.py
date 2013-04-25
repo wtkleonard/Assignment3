@@ -2,8 +2,8 @@
 
 # We use the Sieve of Eratosthenes
 
-def primes(n):
-    candidates = list(range(2,(n+1)))
+def primes_10000():
+    candidates = list(range(2,10001))
     primes = []
     while candidates != []:
         new_prime = candidates[0]
