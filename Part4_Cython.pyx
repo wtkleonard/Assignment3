@@ -1,6 +1,4 @@
 %cython
-cdef extern from "stdlib.h":
-    double random()
 
 def cython_det44():
     cdef double A[4][4]
